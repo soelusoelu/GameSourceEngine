@@ -1,0 +1,89 @@
+{
+    "globalProperties": {
+        "Window": {
+            "title": "MyEngine",
+            "windowWidth": 1024,
+            "windowHeight": 576,
+            "releaseWindowWidth": 1600,
+            "releaseWindowHeight": 900,
+            "windowStandardWidth": 1920,
+            "windowStandardHeight": 1080,
+            "windowDebugWidth": 1920,
+            "windowDebugHeight": 1080
+        },
+        "FPSCounter": {
+            "fps": 60.0
+        },
+        "Keyboard": {
+            "enterKey": "Space"
+        },
+        "JoyPad": {
+            "enterPad": "A"
+        },
+        "SceneManager": {
+            "beginScene": "Title",
+            "releaseScene": "Title",
+            "removeExclusionTag": [
+                "Camera",
+                "Light",
+                "Shadow"
+            ]
+        },
+        "EngineFunctionManager": {},
+        "DebugManager": {},
+        "DebugLayer": {},
+        "FixedDebugInformation": {
+            "scale": [
+                0.3125,
+                0.3125
+            ]
+        },
+        "Hierarchy": {
+            "scale": [
+                0.30000001192092898,
+                0.30000001192092898
+            ],
+            "offsetCharCountX": 2,
+            "offsetCharCountY": 3,
+            "lineSpace": 8.0,
+            "nonActiveAlpha": 0.30000001192092898
+        },
+        "ImGuiInspector": {
+            "inspectorPositionX": 1400.0
+        },
+        "DebugUtility": {},
+        "Log": {
+            "scale": [
+                0.3125,
+                0.3125
+            ]
+        },
+        "Pause": {
+            "fileName": "System/pause.png",
+            "offset": [
+                50.0,
+                15.0
+            ]
+        },
+        "ShadowMap": {
+            "shadowTextureSize": 8192,
+            "lightDistance": 290.0,
+            "nearClip": 10.0,
+            "farClip": 300.0
+        },
+        "LightManager": {
+            "ambientLight": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        "PointLight": {
+            "pointLightMeshFileName": "Shape/Sphere.obj"
+        },
+        "DrawString": {
+            "number": "System/number2.png",
+            "font": "System/font.png"
+        }
+    }
+}
